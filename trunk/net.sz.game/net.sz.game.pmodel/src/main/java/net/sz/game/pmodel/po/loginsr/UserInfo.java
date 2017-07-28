@@ -1,9 +1,9 @@
 package net.sz.game.pmodel.po.loginsr;
 
 import java.io.Serializable;
+import net.sz.framework.db.struct.AttColumn;
+import net.sz.framework.db.struct.AttTable;
 import net.sz.game.pmodel.UserKey;
-import net.sz.framework.db.AttColumn;
-import net.sz.framework.db.AttTable;
 
 /**
  * 用户信息表
