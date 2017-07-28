@@ -62,7 +62,8 @@
     <pluginRepositories>
         <pluginRepository>
             <id>nexus-releases</id>
-            <url>http://192.168.0.219:8081/nexus/content/repositories/central/</url>
+            <!--<url>http://192.168.0.219:8081/nexus/content/repositories/central/</url>-->
+            <url>http://central.maven.org/maven2</url>
 <!--            <url>https://repo1.maven.org/maven2</url>-->
             <releases>
                 <enabled>true</enabled>
@@ -73,7 +74,8 @@
         </pluginRepository>
         <pluginRepository>
             <id>nexus-snapshots</id>
-            <url>http://192.168.0.219:8081/nexus/content/repositories/central/</url>
+            <!--<url>http://192.168.0.219:8081/nexus/content/repositories/central/</url>-->
+            <url>http://central.maven.org/maven2</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
